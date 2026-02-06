@@ -44,8 +44,9 @@ Visit `http://localhost:5173` to see the app running.
 ## ✨ Features
 
 ### Core Features
+
 - 🎯 **Character Explorer** - Browse 800+ Rick and Morty characters
-- 🔍 **Advanced Filtering** - Filter by status, species, and gender
+- 🔍 **Advanced Filtering** - Filter by character type, status, species, and gender
 - ⭐ **Favorites System** - Mark and manage favorite characters
 - 💬 **Comments** - Add personal notes to characters
 - 🗑️ **Soft Delete** - Remove characters with restore capability
@@ -54,6 +55,7 @@ Visit `http://localhost:5173` to see the app running.
 - ⚡ **PWA Support** - Install as native app
 
 ### Technical Features
+
 - ✅ **100% TypeScript** - Full type safety
 - ✅ **GraphQL API** - Efficient data fetching with Apollo Client
 - ✅ **56+ Unit Tests** - Comprehensive test coverage
@@ -68,6 +70,7 @@ Visit `http://localhost:5173` to see the app running.
 ## 🛠 Tech Stack
 
 ### Frontend
+
 - **React 18** - UI library
 - **TypeScript 5.6** - Type safety
 - **Vite 6** - Build tool & dev server
@@ -75,16 +78,19 @@ Visit `http://localhost:5173` to see the app running.
 - **React Router DOM 7** - Client-side routing
 
 ### Data & State
+
 - **Apollo Client** - GraphQL client
 - **Context API** - Global state management
 - **LocalStorage** - Client-side persistence
 
 ### Testing
+
 - **Vitest** - Test runner
 - **Testing Library** - Component testing
 - **56 Unit Tests** - Components, hooks, utils, integration
 
 ### Tools & Quality
+
 - **ESLint** - Code linting
 - **TypeScript** - Static type checking
 - **Vite PWA** - Progressive Web App support
@@ -94,7 +100,7 @@ Visit `http://localhost:5173` to see the app running.
 ## 📁 Project Structure
 
 ```
-rick-morthy/
+rick-and-morty-character-explorer/
 ├── src/
 │   ├── core/                    # Core configuration
 │   │   ├── config/              # Apollo, Router, PWA config
@@ -134,45 +140,49 @@ rick-morthy/
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone <repository-url>
-   cd rick-morthy
+   git clone https://github.com/yised1394/rick-and-morty-character-explorer.git
+   cd rick-and-morty-character-explorer
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Configure environment**
+
    ```bash
    cp .env.example .env
    ```
-   
+
    Edit `.env` if needed (default values work out of the box)
 
 4. **Start development server**
+
    ```bash
    npm run dev
    ```
 
 5. **Open browser**
-   
+
    Navigate to `http://localhost:5173`
 
 ---
 
 ## 📜 Available Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server with hot reload |
-| `npm run build` | Build production bundle |
-| `npm run preview` | Preview production build locally |
-| `npm run test` | Run test suite in watch mode |
-| `npm run test:coverage` | Generate test coverage report |
-| `npm run type-check` | Run TypeScript type checking |
-| `npm run lint` | Run ESLint code linting |
+| Command                 | Description                              |
+| ----------------------- | ---------------------------------------- |
+| `npm run dev`           | Start development server with hot reload |
+| `npm run build`         | Build production bundle                  |
+| `npm run preview`       | Preview production build locally         |
+| `npm run test`          | Run test suite in watch mode             |
+| `npm run test:coverage` | Generate test coverage report            |
+| `npm run type-check`    | Run TypeScript type checking             |
+| `npm run lint`          | Run ESLint code linting                  |
 
 ---
 
@@ -200,6 +210,7 @@ npm run test character-card
 ```
 
 ### Test Results
+
 ```
 ✅ 56/56 tests passing (100%)
 ✅ Components: 15 tests
@@ -246,25 +257,30 @@ Comprehensive documentation is available in the `/docs` folder:
 ## 🎯 Key Features Explained
 
 ### Character Explorer
+
 Browse characters with:
+
 - Pagination (20 per page)
 - Real-time search
-- Multi-criteria filtering
+- Multi-criteria filtering (type, status, species, gender)
 - Instant sorting (A-Z, Z-A)
 
 ### Favorites System
+
 - Add/remove with one click
 - Persistent across sessions
 - Dedicated favorites view
 - LocalStorage backed
 
 ### Comments
+
 - Character-specific notes
 - Timestamp tracking
 - Edit & delete support
 - Author attribution
 
 ### Soft Delete
+
 - Non-destructive removal
 - Restore capability
 - Separate deleted view
@@ -275,6 +291,7 @@ Browse characters with:
 ## 🏗 Architecture Highlights
 
 ### SOLID Principles
+
 - **S**ingle Responsibility - Each component/module has one purpose
 - **O**pen/Closed - Easy to extend without modification
 - **L**iskov Substitution - Interfaces are properly abstracted
@@ -282,6 +299,7 @@ Browse characters with:
 - **D**ependency Inversion - High-level modules don't depend on low-level
 
 ### Design Patterns
+
 - **Feature-based architecture** - Code organized by feature
 - **Context pattern** - Centralized state management
 - **Custom hooks** - Reusable business logic
@@ -342,6 +360,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For questions or issues:
+
 - Open an [Issue](../../issues)
 - Check [Documentation](./docs/)
 - Review [FAQ](./docs/faq.md)
