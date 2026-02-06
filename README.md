@@ -333,38 +333,4 @@ For detailed deployment instructions, see [docs/deployment.md](./docs/deployment
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read [CONTRIBUTING.md](./docs/contributing.md) for:
-
-- Code style guidelines
-- Testing requirements
-- Pull request process
-- Development workflow
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **Rick and Morty API** - [rickandmortyapi.com](https://rickandmortyapi.com)
-- **Rick and Morty** - Created by Justin Roiland and Dan Harmon
-
----
-
-## 📞 Support
-
-For questions or issues:
-
-- Open an [Issue](../../issues)
-- Check [Documentation](./docs/)
-- Review [FAQ](./docs/faq.md)
-
----
-
-**Made with ❤️ using React + TypeScript**
+**Made with ❤️ Yised Castillo FrontEnd Developer**
